@@ -1,6 +1,8 @@
 .post{
-    background-color: var(--gray-600);
+    max-width: 70rem;
     padding: 8rem;
+    background-color: var(--gray-600);
+    margin: 3rem auto;
  
 }
 

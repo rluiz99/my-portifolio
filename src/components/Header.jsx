@@ -14,7 +14,7 @@ export function Header() {
                 </div>
 
                 <div className={styles.description}>
-                    <strong>Desenvolvedor Fullstack</strong>
+                    <strong>Desenvolvedor Fullstack Jr.</strong>
                     <ArrowsClockwise size={20} weight="bold" />
                 </div>
 
