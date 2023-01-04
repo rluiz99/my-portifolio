@@ -1,0 +1,38 @@
+import {Phone} from 'phosphor-react'
+import {LinkedinLogo} from 'phosphor-react'
+import {GithubLogo} from 'phosphor-react'
+import styles from './About.module.css'
+
+export function About() {
+    return(
+        <article className={styles.post}>
+
+            <div className={styles.authorAbout}>
+                <span> About Me 🚀</span>
+                <hr />
+                <br /><br/>
+                <p>
+                    Formado no curso de Informática para gestão de negócios pela Faculdade de Tecnologia Fatec.
+                    Possuo 2 anos de experiência em desenvolvimento web, realizando manutenções um sistema legado e 
+                    incluindo novas funcionalidades ao sistema. Tecnologias que atuo no momento no front end: html, 
+                    css e javascript e angulasjs, e em tecnologias backend: coldfusion da adobe, e banco de dados sql 
+                    server. Sou estudandte ativo de nodejs, desenvolvendo habilidades em microserviços, fluxo de dados 
+                    e persistencia. Atualmente estou me atualizando tambem em  html, css e javascript puro para melhorar 
+                    as habilidades front end e tbm o framework React. Obs: este site utiliza React!
+                </p>
+                <br /><br />
+            </div>          
+                
+            <div className={styles.authorInfo}>
+                <span><Phone size={32} weight="bold" />(32)999750781</span>
+                <a href="https://www.linkedin.com/in/ronaldoluiz/"><LinkedinLogo size={32} weight="bold" /></a>
+                <a href="https://github.com/rluiz99"><GithubLogo size={32} weight="bold" /></a>
+            </div>
+            <footer>
+                <button type='submit'>Download CV</button>
+            </footer>
+            
+        </article>
+       
+    );
+}
