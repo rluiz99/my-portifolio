@@ -18,7 +18,8 @@ export function About() {
                     css e javascript e angulasjs, e em tecnologias backend: coldfusion da adobe, e banco de dados sql 
                     server. Sou estudandte ativo de nodejs, desenvolvendo habilidades em microserviços, fluxo de dados 
                     e persistencia. Atualmente estou me atualizando tambem em  html, css e javascript puro para melhorar 
-                    as habilidades front end e tbm o framework React. Obs: este site utiliza React!
+                    as habilidades front end e tbm o framework React. Tenho alguns projetos no liinkedin na seção projetos.
+                    Obs: este site utiliza React!
                 </p>
                 <br /><br />
             </div>          
@@ -29,7 +30,9 @@ export function About() {
                 <a href="https://github.com/rluiz99"><GithubLogo size={32} weight="bold" /></a>
             </div>
             <footer>
+            <a href="https://drive.google.com/file/d/1RaEpqDk8GrW2CbLpMLy-nRMl8CSh0s77/view?usp=sharing" target="_blank"> 
                 <button type='submit'>Download CV</button>
+            </a>
             </footer>
             
         </article>

@@ -1,6 +1,6 @@
 .post{
     background-color: var(--gray-600);
-    padding: 5rem;
+    padding: 8rem;
  
 }
 
@@ -40,7 +40,7 @@
     display: block;
     color: var(--gray-500);
     line-height:1.6;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 
 }
 
