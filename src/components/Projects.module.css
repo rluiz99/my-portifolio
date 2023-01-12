@@ -7,14 +7,14 @@
 }
 
 @media(max-width: 768px){
-    .post{
+    img {
+        height: 5rem;
+        width: 5rem;
+    }
+    .projects{
         max-width: 27rem;
         margin: 0 auto;
     }
-    .author {
-       
-        width: 20rem;
-    } 
 }
 
 .projects p {
@@ -24,8 +24,8 @@
 }
 
 img {
-    height: 5rem;
-    width: 5rem;
+    height: 15rem;
+    width: 15rem;
 }
 
 section {

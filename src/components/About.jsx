@@ -1,4 +1,4 @@
-import {Phone} from 'phosphor-react'
+import {WhatsappLogo } from 'phosphor-react'
 import {LinkedinLogo} from 'phosphor-react'
 import {GithubLogo} from 'phosphor-react'
 import styles from './About.module.css'
@@ -25,9 +25,9 @@ export function About() {
             </div>          
                 
             <div className={styles.authorInfo}>
-                <span><Phone size={32} weight="bold" />(32)999750781</span>
-                <a href="https://www.linkedin.com/in/ronaldoluiz/"><LinkedinLogo size={32} weight="bold" /></a>
-                <a href="https://github.com/rluiz99"><GithubLogo size={32} weight="bold" /></a>
+                <span><WhatsappLogo  size={32}  />(32)999750781</span>
+                <a href="https://www.linkedin.com/in/ronaldoluiz/"><LinkedinLogo size={32} /></a>
+                <a href="https://github.com/rluiz99"><GithubLogo size={32} /></a>
             </div>
             <footer>
             <a href="https://drive.google.com/file/d/1RaEpqDk8GrW2CbLpMLy-nRMl8CSh0s77/view?usp=sharing" target="_blank"> 
