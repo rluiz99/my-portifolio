@@ -1,0 +1,38 @@
+.projects{
+    max-width: 70rem;
+    padding: 3rem;
+    background-color: var(--gray-600);
+    /* margin: 3rem auto; */
+ 
+}
+
+@media(max-width: 768px){
+    .post{
+        max-width: 27rem;
+        margin: 0 auto;
+    }
+    .author {
+       
+        width: 20rem;
+    } 
+}
+
+.projects p {
+    margin: 3rem auto;
+    text-align: center;
+    font-size: 2rem;
+}
+
+img {
+    height: 5rem;
+    width: 5rem;
+}
+
+section {
+    display: flex;
+    gap: .8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+

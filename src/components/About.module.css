@@ -1,8 +1,8 @@
 .post{
     max-width: 70rem;
-    padding: 8rem;
+    padding: 3rem;
     background-color: var(--gray-600);
-    margin: 3rem auto;
+    margin: 3rem 0 auto;
  
 }
 
@@ -15,11 +15,6 @@
        
         width: 20rem;
     } 
-}
-
-.authorAbout {
-
-
 }
 
 .authorInfo {
@@ -63,7 +58,6 @@
 }
 
 .authorInfo a{
-
     font-weight: bold;
     color: var(--green-500);
     text-decoration: none;

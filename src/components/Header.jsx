@@ -23,11 +23,11 @@ export function Header() {
                     <p> About Me 🚀</p>
                     <p>{' '}<a href="">👉 jane.design/doctorcare </a></p> */}
                     <p> 
-                        <a href="">#HTML</a>{' '}
+                        <a href=""> #HTML</a>{' '}
                         <a href=""> #CSS</a>{' '}
                         <a href=""> #Node</a>{' '}
                         <a href=""> #SQL</a>{' '}
-                        <a href="">#Javascript</a>
+                        <a href=""> #Javascript</a>
                     </p>
                
                 </div>
