@@ -1,12 +1,5 @@
-.header{
-    max-width: 70rem;
-    padding: 5rem;
-    margin: 2rem auto;
-    background-color: var(--gray-600);
-}
-
 @media(max-width: 768px){
-    .header{
+    .profile{
         max-width: 27rem;
         margin: 0 auto;
     }
@@ -14,27 +7,43 @@
         font-size: 1.5rem;
     }
 }
-.author{
-    font-size: 1.8rem;
+
+.profile{
+    /* max-width: 70rem;
+    padding: 3rem;
+    margin: 2rem auto;
+    background-color: var(--gray-600); */
+
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    
-}
-.author2{
-    font-size: 1.8rem;
-    display: flex;
-    align-items: center;
-    gap: 0.2rem;
-    
+    padding: 3rem;
 }
 
+.info{
+    /* font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem; */
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 18px;
+    font-size: 1.3rem;
+    gap: 1rem;
+    font-size: 1.8rem;
+}
+
+
 .logo{
-    height: 2.5rem;
+     height: 2.5rem;
     width: 2.5rem;
     background-color: var(--green-500);
-    margin: 0 auto;
-   
+    margin: 0 auto; 
+    position: relative;
 }
 
 .description{
@@ -58,22 +67,40 @@
     outline: 2px solid var(--green-500);
 }
 
-.content{
-    line-height: 1.6;
-    color: var(--grey-300);
-    margin-top: 1.5rem;
-}
-.content p {
-    margin-top: 1rem;
-}
+.stack{
+    display: inline-block;
+    width: max-content;
+    cursor: pointer;
+} 
 
-.content a {
+.stack span{
+    background-color: #6E2B77;
+    padding: 2px 6px;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 2px;
+    vertical-align: middle;
+    margin-right: 4px;
+} 
+
+/* .content a {
     margin-top: 1rem;
     font-weight: bold;
     color: var(--green-500);
     text-decoration: none;
-}
+} */
 
-.content a:hover{
+/* .content a:hover{
     color: var(--green-300);
-}
+} */
+
+/* .author{
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    
+} */
