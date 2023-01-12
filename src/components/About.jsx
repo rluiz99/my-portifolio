@@ -8,7 +8,7 @@ export function About() {
         <article className={styles.post}>
 
             <div className={styles.authorAbout}>
-                <span> About Me 🚀</span>
+                <span> Sobre mim 🚀</span>
                 <hr />
                 <br /><br/>
                 <p>
