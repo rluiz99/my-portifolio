@@ -10,6 +10,11 @@
     .post{
         max-width: 27rem;
         margin: 0 auto;
+        padding: 2rem;
+  
+    }
+    .authorAbout p{
+        text-align: center;
     }
     .author {
        
@@ -43,7 +48,7 @@
 
 .authorAbout hr {
     background-color:var(--green-500);
-    width: 10%;
+    width: 50%;
     height: 0.5rem;
     border-top: 0.5rem;
 }
