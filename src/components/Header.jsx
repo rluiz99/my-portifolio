@@ -13,10 +13,9 @@ export function Header() {
                         <img className={styles.logo} src={logo} alt="Logotipo" />
                         <strong>onaldo Luiz </strong>
                     </span>
-                    <span>
-                        <strong>Desenvolvedor Fullstack Jr.</strong>
-                        {/* <ArrowsClockwise size={20} weight="bold" /> */}
-                    </span>
+
+                    <strong className={styles.role} >Desenvolvedor Fullstack Jr.</strong>
+                 
                     <div className={styles.stack}> 
                         <span>HTML</span>
                         <span>CSS</span>
